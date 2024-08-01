@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Basic annotations continued"""
 
+import math
+
 
 def floor(n: float) -> int:
     """Function that takes a float and
@@ -12,4 +14,4 @@ def floor(n: float) -> int:
     Returns:
         int: Returns an integer
     """
-    return float.__floor__(n)
+    return math.floor(n)
