@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+"""Duck typing more complex types, dict and unknowns"""
 from typing import Mapping, Any, Union, Optional, TypeVar
 
 T = TypeVar('T')
